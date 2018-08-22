@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8B01F18212D959300901DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F17212D959300901DC4 /* AppDelegate.m */; };
+		D8B01F1B212D959300901DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F1A212D959300901DC4 /* ViewController.m */; };
+		D8B01F1E212D959300901DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B01F1C212D959300901DC4 /* Main.storyboard */; };
+		D8B01F20212D959500901DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B01F1F212D959500901DC4 /* Assets.xcassets */; };
+		D8B01F23212D959500901DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B01F21212D959500901DC4 /* LaunchScreen.storyboard */; };
+		D8B01F26212D959500901DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F25212D959500901DC4 /* main.m */; };
+		D8B01F3C212D95B200901DC4 /* UINavigationController+HalfModalPresentable.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F2D212D95B200901DC4 /* UINavigationController+HalfModalPresentable.m */; };
+		D8B01F3D212D95B200901DC4 /* UIViewController+HalfModalPresentable.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F2E212D95B200901DC4 /* UIViewController+HalfModalPresentable.m */; };
+		D8B01F3E212D95B200901DC4 /* HalfModalTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F32212D95B200901DC4 /* HalfModalTransitioningDelegate.m */; };
+		D8B01F3F212D95B200901DC4 /* HalfModalInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F33212D95B200901DC4 /* HalfModalInteractiveTransition.m */; };
+		D8B01F40212D95B200901DC4 /* HalfModalTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F34212D95B200901DC4 /* HalfModalTransitionAnimator.m */; };
+		D8B01F41212D95B200901DC4 /* HalfModalPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F3A212D95B200901DC4 /* HalfModalPresentationController.m */; };
+		D8B01F44212D965800901DC4 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B01F43212D965800901DC4 /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8B01F13212D959200901DC4 /* HalfModalPresentationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfModalPresentationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B01F16212D959300901DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8B01F17212D959300901DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8B01F19212D959300901DC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8B01F1A212D959300901DC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8B01F1D212D959300901DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8B01F1F212D959500901DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B01F22212D959500901DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8B01F24212D959500901DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B01F25212D959500901DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8B01F2D212D95B200901DC4 /* UINavigationController+HalfModalPresentable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HalfModalPresentable.m"; sourceTree = "<group>"; };
+		D8B01F2E212D95B200901DC4 /* UIViewController+HalfModalPresentable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HalfModalPresentable.m"; sourceTree = "<group>"; };
+		D8B01F2F212D95B200901DC4 /* UINavigationController+HalfModalPresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HalfModalPresentable.h"; sourceTree = "<group>"; };
+		D8B01F30212D95B200901DC4 /* HalfModalPresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfModalPresentable.h; sourceTree = "<group>"; };
+		D8B01F32212D95B200901DC4 /* HalfModalTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfModalTransitioningDelegate.m; sourceTree = "<group>"; };
+		D8B01F33212D95B200901DC4 /* HalfModalInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfModalInteractiveTransition.m; sourceTree = "<group>"; };
+		D8B01F34212D95B200901DC4 /* HalfModalTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfModalTransitionAnimator.m; sourceTree = "<group>"; };
+		D8B01F35212D95B200901DC4 /* HalfModalTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfModalTransitioningDelegate.h; sourceTree = "<group>"; };
+		D8B01F36212D95B200901DC4 /* HalfModalTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfModalTransitionAnimator.h; sourceTree = "<group>"; };
+		D8B01F37212D95B200901DC4 /* HalfModalInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfModalInteractiveTransition.h; sourceTree = "<group>"; };
+		D8B01F38212D95B200901DC4 /* UIViewController+HalfModalPresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HalfModalPresentable.h"; sourceTree = "<group>"; };
+		D8B01F3A212D95B200901DC4 /* HalfModalPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfModalPresentationController.m; sourceTree = "<group>"; };
+		D8B01F3B212D95B200901DC4 /* HalfModalPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfModalPresentationController.h; sourceTree = "<group>"; };
+		D8B01F42212D965800901DC4 /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		D8B01F43212D965800901DC4 /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B01F10212D959200901DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8B01F0A212D959200901DC4 = {
+			isa = PBXGroup;
+			children = (
+				D8B01F15212D959300901DC4 /* HalfModalPresentationControllerDemo */,
+				D8B01F14212D959200901DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B01F14212D959200901DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B01F13212D959200901DC4 /* HalfModalPresentationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B01F15212D959300901DC4 /* HalfModalPresentationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8B01F2C212D95B200901DC4 /* HalfModalPresentationController */,
+				D8B01F16212D959300901DC4 /* AppDelegate.h */,
+				D8B01F17212D959300901DC4 /* AppDelegate.m */,
+				D8B01F19212D959300901DC4 /* ViewController.h */,
+				D8B01F1A212D959300901DC4 /* ViewController.m */,
+				D8B01F42212D965800901DC4 /* ModalViewController.h */,
+				D8B01F43212D965800901DC4 /* ModalViewController.m */,
+				D8B01F1C212D959300901DC4 /* Main.storyboard */,
+				D8B01F1F212D959500901DC4 /* Assets.xcassets */,
+				D8B01F21212D959500901DC4 /* LaunchScreen.storyboard */,
+				D8B01F24212D959500901DC4 /* Info.plist */,
+				D8B01F25212D959500901DC4 /* main.m */,
+			);
+			path = HalfModalPresentationControllerDemo;
+			sourceTree = "<group>";
+		};
+		D8B01F2C212D95B200901DC4 /* HalfModalPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				D8B01F38212D95B200901DC4 /* UIViewController+HalfModalPresentable.h */,
+				D8B01F2E212D95B200901DC4 /* UIViewController+HalfModalPresentable.m */,
+				D8B01F2F212D95B200901DC4 /* UINavigationController+HalfModalPresentable.h */,
+				D8B01F2D212D95B200901DC4 /* UINavigationController+HalfModalPresentable.m */,
+				D8B01F30212D95B200901DC4 /* HalfModalPresentable.h */,
+				D8B01F31212D95B200901DC4 /* Transitioning */,
+				D8B01F39212D95B200901DC4 /* Presentation */,
+			);
+			path = HalfModalPresentationController;
+			sourceTree = "<group>";
+		};
+		D8B01F31212D95B200901DC4 /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				D8B01F37212D95B200901DC4 /* HalfModalInteractiveTransition.h */,
+				D8B01F33212D95B200901DC4 /* HalfModalInteractiveTransition.m */,
+				D8B01F36212D95B200901DC4 /* HalfModalTransitionAnimator.h */,
+				D8B01F34212D95B200901DC4 /* HalfModalTransitionAnimator.m */,
+				D8B01F35212D95B200901DC4 /* HalfModalTransitioningDelegate.h */,
+				D8B01F32212D95B200901DC4 /* HalfModalTransitioningDelegate.m */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		D8B01F39212D95B200901DC4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D8B01F3B212D95B200901DC4 /* HalfModalPresentationController.h */,
+				D8B01F3A212D95B200901DC4 /* HalfModalPresentationController.m */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B01F12212D959200901DC4 /* HalfModalPresentationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B01F29212D959500901DC4 /* Build configuration list for PBXNativeTarget "HalfModalPresentationControllerDemo" */;
+			buildPhases = (
+				D8B01F0F212D959200901DC4 /* Sources */,
+				D8B01F10212D959200901DC4 /* Frameworks */,
+				D8B01F11212D959200901DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalfModalPresentationControllerDemo;
+			productName = HalfModalPresentationControllerDemo;
+			productReference = D8B01F13212D959200901DC4 /* HalfModalPresentationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B01F0B212D959200901DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nam Nguyen";
+				TargetAttributes = {
+					D8B01F12212D959200901DC4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D8B01F0E212D959200901DC4 /* Build configuration list for PBXProject "HalfModalPresentationControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8B01F0A212D959200901DC4;
+			productRefGroup = D8B01F14212D959200901DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B01F12212D959200901DC4 /* HalfModalPresentationControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8B01F11212D959200901DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B01F23212D959500901DC4 /* LaunchScreen.storyboard in Resources */,
+				D8B01F20212D959500901DC4 /* Assets.xcassets in Resources */,
+				D8B01F1E212D959300901DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B01F0F212D959200901DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B01F1B212D959300901DC4 /* ViewController.m in Sources */,
+				D8B01F26212D959500901DC4 /* main.m in Sources */,
+				D8B01F44212D965800901DC4 /* ModalViewController.m in Sources */,
+				D8B01F3D212D95B200901DC4 /* UIViewController+HalfModalPresentable.m in Sources */,
+				D8B01F3C212D95B200901DC4 /* UINavigationController+HalfModalPresentable.m in Sources */,
+				D8B01F41212D95B200901DC4 /* HalfModalPresentationController.m in Sources */,
+				D8B01F3F212D95B200901DC4 /* HalfModalInteractiveTransition.m in Sources */,
+				D8B01F3E212D95B200901DC4 /* HalfModalTransitioningDelegate.m in Sources */,
+				D8B01F40212D95B200901DC4 /* HalfModalTransitionAnimator.m in Sources */,
+				D8B01F18212D959300901DC4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8B01F1C212D959300901DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B01F1D212D959300901DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8B01F21212D959500901DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B01F22212D959500901DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8B01F27212D959500901DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8B01F28212D959500901DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8B01F2A212D959500901DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M43NQMBFY7;
+				INFOPLIST_FILE = HalfModalPresentationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.namnguyen.HalfModalPresentationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8B01F2B212D959500901DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M43NQMBFY7;
+				INFOPLIST_FILE = HalfModalPresentationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.namnguyen.HalfModalPresentationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B01F0E212D959200901DC4 /* Build configuration list for PBXProject "HalfModalPresentationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B01F27212D959500901DC4 /* Debug */,
+				D8B01F28212D959500901DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B01F29212D959500901DC4 /* Build configuration list for PBXNativeTarget "HalfModalPresentationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B01F2A212D959500901DC4 /* Debug */,
+				D8B01F2B212D959500901DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B01F0B212D959200901DC4 /* Project object */;
+}
